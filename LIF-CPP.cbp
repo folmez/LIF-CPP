@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LIF-CPP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LIF-CPP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LIF-CPP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CHANGELOG.md" />
+		<Unit filename="LIF_network.cpp" />
+		<Unit filename="My_Random_Number_Generator.h" />
+		<Unit filename="README.md" />
+		<Unit filename="analytic.cpp" />
+		<Unit filename="calculate_population_statistics.cpp" />
+		<Unit filename="evaluate_k.cpp" />
+		<Unit filename="evolve_ge_poisson_input.cpp" />
+		<Unit filename="evolve_potential.cpp" />
+		<Unit filename="generate_LIF_network_adjacency_matrix.cpp" />
+		<Unit filename="get_alpha.cpp" />
+		<Unit filename="get_beta.cpp" />
+		<Unit filename="get_external_input_current.cpp" />
+		<Unit filename="read_params.cpp" />
+		<Unit filename="rk2.cpp" />
+		<Unit filename="shelley_and_tao_2001.cpp" />
+		<Unit filename="small_functions.h" />
+		<Unit filename="typedefs.h" />
+		<Unit filename="write_simulation_ouput.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
